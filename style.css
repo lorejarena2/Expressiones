@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://img.freepik.com/free-photo/beautiful-young-woman-home-office-working-from-home-teleworking-concept_144627-46787.jpg?w=900&t=st=1678884030~exp=1678884630~hmac=785b81808e913749f71267b3980b4c9288059afd8d3668f05c3c319a8c1b43dd');
+    background-size: cover;
+}
+
+.contenedor{
+    width: 30%;
+    height: 50%;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.363);
+    border-radius: 20px;
+}
+
+.titulo{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.758);
+    font-weight: 800;
+    padding: 20px;
+}
+
+.uno{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.nombre{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.apellido{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.dos{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.fecha{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+
+}
+
+#fecha{
+    width: 180px;
+}
+
+.telefono{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.tres{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#email{
+    width: 333px;
+}
+
+.cuatro{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.contra{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.cinco{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;  
+}
+
+.cinco label{
+    font-weight: bold;
+}
+
+.seis{
+    width: 100%;
+    height: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;  
+}  
+
+
+.css-button-rounded--green {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #57cc99;
+    background: #57cc99;
+  }
+  .css-button-rounded--green:hover {
+    background: #fff;
+    color: #57cc99
+  }
+
+  .css-button-rounded--red {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #d90429;
+    background: #d90429;
+  }
+  .css-button-rounded--red:hover {
+    background: #fff;
+    color: #d90429
+  }
+
+  form{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  label{
+    color: white;
+  }
+
+  h1{
+    color: green;
+    font-size: 50px;
+  }
